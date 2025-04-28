@@ -12,7 +12,6 @@ This project aims to replicate the **design, layout**, and **functionality** of 
 - **Hero Section**: Created a **hero section** with images, text, and call-to-action buttons.
 - **Product Sections**: Dynamic sections to showcase products, similar to the original Apple site.
 - **Footer**: Added a footer with useful links, terms, and social media icons.
-- **JavaScript Animations**: Implemented smooth **scrolling effects** and **transitions**.
 
 ---
 
@@ -22,8 +21,8 @@ This project aims to replicate the **design, layout**, and **functionality** of 
 2. **Navigate** to the project folder.
 3. **Open** `index.html` in your browser to view the homepage.
 
-``bash
-git clone https://github.com/nejuwa/Rebuilding-Apple-HomePage.git
+```bash ```
+git clone https://cerulean-squirrel-1d2b99.netlify.app
 cd apple-homepage
 open index.html
 
