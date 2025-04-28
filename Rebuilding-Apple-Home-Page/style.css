@@ -1,0 +1,258 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+header{
+    background-color: rgba(69,69,69,0.95);
+    padding:10px 0;
+    position:fixed;
+    width:100%;   
+}
+nav{ 
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    
+}
+.nav-links{
+    text-align: center;
+    display:flex;
+    list-style: none ;
+    width:90%;
+    padding:0 150px;
+    justify-content:space-between;
+
+}
+.nav-links li a{
+    color:white;
+    text-decoration: none;
+    font-size:12px;
+
+}
+   /* iphon 16 pro */
+.section1{
+    background:url("./app-img/iphon16pro.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height:100vh; 
+    
+  
+}
+.center{
+    text-align:center;
+    color:white;
+    padding-top:60px;
+}
+.center h1{
+    font-size:50px;
+}
+.center h2{
+    font-size:25px;
+    padding:10px;
+}
+button{
+    padding:10px 25px;
+    border-radius:40px;
+    border:none;
+    margin-top:10px;
+    margin-right:15px;
+    font-size:18px;
+    transition: 0.3s;
+}
+.learn{
+    background-color: #0076DF;
+    color:white;
+}
+.buy{
+    background:transparent;
+    color: #0076DF;
+    border:1px solid #0076DF;
+}
+.learn:hover{
+    opacity:0.95;
+
+}
+.buy:hover{
+    background:#0076DF;
+    color:white;
+}
+ 
+
+ /* iphone  16 */
+
+.section2{
+    background:url("./app-img/iphon16.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height:100vh; 
+    margin: 10px 0px;
+}
+#learn{
+    background-color: rgba(255,255,255,0.90);
+    color:black;
+}
+#buy{
+    border:1px solid white;
+    color:white;
+
+}
+#learn:hover{
+    background-color:white;
+
+}
+
+#buy:hover{
+    background:white;
+    color:black;
+}
+ 
+/* iphon  watch */
+
+.section3{
+    background:url("./app-img/watch.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height:100vh; 
+    margin: 10px 0;
+    
+}
+
+.section3 h2{
+    font-size:30px;
+    color:black;
+    font-height: 120px;
+    font-weight:400 ;
+    padding-bottom:10px;
+}
+.section3 img{
+    max-width:230px;
+}   
+
+/* ww and mac */
+
+.section4{
+    display:flex;
+}
+#ww{
+    background-image:url("./app-img/ww.jpg");
+}
+#mac{
+    background-image:url("./app-img/mac.jpg"); 
+}
+.common{
+    text-align:center;
+    color:black;
+    padding-top:60px;
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100vh; 
+    margin: 5px 5px;
+    
+}
+.section4 h1{
+    font-size:30px;
+    color:black;
+    font-weight:600 ;
+    padding-bottom:5px;
+}
+.section4 h2{
+    font-size:20px;
+    color:black;
+    font-weight:400 ;
+    padding-bottom:5px;
+}
+
+#learnn{
+    padding:8px 15px;
+    font-size:15px;
+}
+#buyy{
+    padding:8px 15px;
+    font-size:15px;
+}
+.common img{
+    max-width:100px;
+}
+
+/* ww and mac */
+
+#ipad{
+    background-image:url("./app-img/ipadd.jpg");
+}
+#airpod{
+    background-image:url("./app-img/airpod.jpg"); 
+}
+#airpod h1,#airpod h2{
+    color:white;
+
+}
+
+/* trade and card */
+
+#trad{
+    background-image:url("./app-img/trade.jpg");
+}
+#card{
+    background-image:url("./app-img/appcard.jpg"); 
+}
+#trad img{
+    max-width:150px;
+}
+.common #img{
+    max-width:250px;
+
+}
+.section4 #www{
+    margin-top:410px;
+}
+.section4 #apple{
+    margin-top:330px;
+}
+
+/* footer  */
+
+.footer{
+    background: #f8f8f8;
+    padding:10px 150px;
+    font-size: 13px;
+    font-weight:100;
+}
+.footer p{
+   
+}
+.colomn{
+    display:flex;
+    width:100%;
+    font-size:13px;
+    font-weight:300;
+    justify-content:space-between;
+}
+.colomn ul{
+    list-style: none;
+}
+.colomn h5{
+    font-weight:400;
+    font-size:13px;
+}
+.footer a{
+    text-decoration:none;
+    color:black;
+}
+.footer a :hover{
+    text-decoration:underline;
+}
+.footer-bottom{
+    padding:15px 0;
+    font-weight: 300;
+}
+.footer-bottom spam a{
+    font-weight: 400;
+}
+.footer-bottom spam a:hover{
+    text-decoration: underline;
+}
